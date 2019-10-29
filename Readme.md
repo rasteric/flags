@@ -25,7 +25,7 @@ Clear the flag in the given bitfield `b`, return the new bitfield.
 
 Toggle the flag in the given bitfield `b`, return the new bitfield.
 
-`Has(b, flag Bits) Bits`
+`Has(b, flag Bits) bool`
 
 Return true if the flag in bitfield `b` is set, false otherwise.
 

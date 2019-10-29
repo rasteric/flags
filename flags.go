@@ -5,7 +5,7 @@ type Bits uint64
 
 // Flag constants are used to access individual bits from Flag0 .. Flag63.
 const (
-	Flag0 Flags64 = 1 << iota
+	Flag0 Bits = 1 << iota
 	Flag1
 	Flag2
 	Flag3
@@ -81,4 +81,4 @@ func Clear(b, flag Bits) Bits { return b &^ flag }
 func Toggle(b, flag Bits) Bits { return b ^ flag }
 
 // Has returns true if the flag is set in the given Bits field, false otherwise.
-func Has(b, flag Bits) Bits { return b&flag != 0 }
+func Has(b, flag Bits) bool { return (b & flag) > 0 }
