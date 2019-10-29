@@ -1,5 +1,5 @@
  # Flags
-*-- get, set, toggle, or clear 64 flags
+-- get, set, toggle, or clear 64 flags
 
 [![GoDoc](https://godoc.org/github.com/rasteric/flags/go?status.svg)](https://godoc.org/github.com/rasteric/flags)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rasteric/flags)](https://goreportcard.com/report/github.com/rasteric/flags)
